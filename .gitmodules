@@ -1,0 +1,6 @@
+[submodule "Website-Movie-BE"]
+	path = Website-Movie-BE
+	url = https://github.com/AThang159/Website-Movie-BE
+[submodule "Website-Movie-FE"]
+	path = Website-Movie-FE
+	url = https://github.com/AThang159/Website-Movie-FE
