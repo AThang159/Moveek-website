@@ -6,12 +6,11 @@
   - Gợi ý các nội dung nổi bật hoặc mới nhất.
   - Nút điều hướng đến các trang chính.
 
-![Home](https://drive.google.com/file/d/1Om-EXMCFgmlv3Lvfm4yIegJkSwsJ2VIb/view?usp=drive_link)
+![Home](assets/images/home.png)
 ---
 
 ## Trang đăng nhập (Login)
 - **Đường dẫn:** `/login` và `/admin/login`
-
 - **Chức năng:**
   - Cho phép người dùng đăng nhập vào hệ thống.
   - Tích hợp xác thực (authentication).
@@ -21,8 +20,8 @@
   - Chưa có token user nào trong cookies
   - Đảm bảo xác thực quyền qua Api
 
-![Login](https://drive.google.com/file/d/1fNqtcZ62tp-9AfDfrXP6nmm4uPAAqAuf/view?usp=drive_link)
-![Login Admin](https://drive.google.com/file/d/1fNqtcZ62tp-9AfDfrXP6nmm4uPAAqAuf/view?usp=drive_link)
+![Login](assets/images/login.png)
+![Login Admin](assets/images/login-admin.png)
 ---
 
 ## Trang tổng quan quản trị(Dashboard Admin)
@@ -35,7 +34,7 @@
 - **Yêu cầu:**
   - Đảm bảo dữ liệu được tải từ API hoặc database.
 
-![Admin Dashboard](https://drive.google.com/file/d/1xBaynqAQON-O4PRXM9kfvFaN9lhnWThq/view?usp=drive_link)
+![Admin Dashboard](assets/images/admin-dashboard.png)
 
 ---
 
@@ -50,7 +49,7 @@
 - **Yêu cầu:**
   - Đảm bảo dữ liệu được tải từ API hoặc database.
 
-![Movies List](https://drive.google.com/file/d/1MvYpnM8qQRyOgJx8IPH4fsqkdC-hd8fZ/view?usp=drive_link)
+![Movies List](assets/images/movies.png)
 
 ---
 
@@ -65,7 +64,7 @@
 - **Yêu cầu:**
   - Đảm bảo dữ liệu được tải từ API hoặc database.
 
-![Theaters List](https://drive.google.com/file/d/1ZGLXw5FiDRUrYsDZ4AGU64ia5VW6R1di/view?usp=drive_link)
+![Theaters List](assets/images/theaters.png)
 
 ---
 
@@ -80,7 +79,7 @@
 - **Yêu cầu:**
   - Đảm bảo dữ liệu được tải từ API hoặc database.
 
-![Showtimes List](https://drive.google.com/file/d/1fv8NnU6xAq2mMtHH2U-iTA0R3xc5rpO5/view?usp=drive_link)
+![Showtimes List](assets/images/showtimes.png)
 
 ---
 
@@ -94,7 +93,7 @@
 - **Yêu cầu:**
   - Đảm bảo dữ liệu được tải từ API hoặc database.
 
-![Users List](https://drive.google.com/file/d/1Kir0Ynz4ltIDrAskWeSQ-AbJHHpIA-ze/view?usp=drive_link)
+![Users List](assets/images/users.png)
   
 ---
 ## Trang danh sách vé (Bookings)
@@ -107,7 +106,7 @@
 - **Yêu cầu:**
   - Đảm bảo dữ liệu được tải từ API hoặc database.
 
-![Bookings List](https://drive.google.com/file/d/13pQzRZgFT7O2C40-la3NrlgM62jirpF5/view?usp=drive_link)
+![Bookings List](assets/images/bookings.png)
 
 ---
 
@@ -125,7 +124,7 @@
   - Đã chọn phim trước đó.
   - Đảm bảo suất chiếu được tải từ API hoặc database.
 
-![Showtime Selection](https://drive.google.com/file/d/1DvMEaujVW_UCdz3c2AqpBdoPFyV-jJpX/view?usp=drive_link)
+![Showtime Selection](assets/images/showtime-selection.png)
 
 ---
 
@@ -141,7 +140,7 @@
   - Đã chọn suất chiếu trước đó.
   - Đảm bảo ghế được tải từ API hoặc database.
 
-![Seat Selection](https://drive.google.com/file/d/1lW7wne3E9KzdfeQ4Ao5oIOC9YBqMPgIa/view?usp=drive_link)
+![Seat Selection](assets/images/seat-selection.png)
 
 ---
 
@@ -161,9 +160,9 @@
   - Server/backend xử lý được response từ VNPAY và cập nhật trạng thái đơn hàng.
   - Đảm bảo bảo mật thông tin giao dịch.
 
-![Payment Method](https://drive.google.com/file/d/1SGHwVxhh4fqGxtxFbThehQ2qCPdDmj92/view?usp=drive_link)
-![Payment Method](https://drive.google.com/file/d/1ajT5uSHWWFOxSLbJIFtLtGuRF0k3uu7a/view?usp=drive_link)
-![Payment Method](https://drive.google.com/file/d/1BkIz0gmV2jSzvcY_Mb5YIzD355sBKShl/view?usp=drive_link)
+![Payment Method](assets/images/payment-method.png)
+![Payment Method](assets/images/vnpay.png)
+![Payment Method](assets/images/vnpay2.png)
 
 ---
 
@@ -176,7 +175,7 @@
 - **Yêu cầu:** Đơn hàng đã được thanh toán thành công.
 - **Lưu ý:** Đảm bảo bảo mật thông tin giao dịch.
 
-![Ticket Confirmation](https://drive.google.com/file/d/1sKWBWc5XvXkComjJ72H476wqjYMzOiKT/view?usp=drive_link)
+![Ticket Confirmation](assets/images/ticket-confirmation.png)
 
 ---
 
@@ -191,4 +190,4 @@
 - **Yêu cầu:** Người dùng đã đăng nhập.
 - **Lưu ý:** Đảm bảo bảo mật thông tin cá nhân.
 
-![User Profile](https://drive.google.com/file/d/176TOHT1ZgNAs6uLr57U24LsWp8Kuu--E/view?usp=drive_link)
+![User Profile](assets/images/user-profile.png)
